@@ -29,11 +29,11 @@ while True :
     f.close()
 
     if data != textList[0] :
-        # tweet(CK, CS, AT, AS, textList)
+        tweet(CK, CS, AT, AS, textList)
         f = open('title.txt', 'w')
         f.write(textList[0])
         f.close()
-        print(textList[0])
-    else :
-        print('same')
+        # print(textList[0])
+    # else :
+        # print('same')
     time.sleep(1)
