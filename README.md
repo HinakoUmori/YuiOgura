@@ -8,6 +8,7 @@ Python 3.7.4
 requests-oauthlib 1.3.0
 
 # Usage
+Download codes, change directory /YuiOgura/YuiOgura, execute this command
 ```
 . > python3 main.py
 ```
